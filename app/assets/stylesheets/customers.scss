@@ -1,0 +1,24 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+position: relative;
+border: 1px;
+}
+.cust {
+position: relative;
+float: left;
+padding-left: 30px;
+padding-bottom: 10px;
+border: 1px solid gray;
+
+}
+.resize {
+  width:250px;
+  height: 350px;
+}
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,15 @@
+<header>
+<nav>
+<ul>
+<% if display_missing_email %>
+<li><%= link_to 'Index', :all_customers %> </li>
+<li><%= link_to 'Alphabetized', :alphabetized %> </li>
+<% elsif display_index %>
+<li><%= link_to 'Alphabetized', :alphabetized %> </li>
+<li><%= link_to 'Missing Email', :missing_email %> </li>
+<% else display_alpha %>
+<li><%= link_to 'Index', :all_customers %> </li>
+<li><%= link_to 'Missing Email', :missing_email %> </li>
+<% end %>
+</nav>
+</header>

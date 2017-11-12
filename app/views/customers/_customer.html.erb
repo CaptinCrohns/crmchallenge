@@ -1,8 +1,9 @@
-<% if display_pic %>
+<div class="cust">
 <h2><%= customer.full_name %> </h2>
+<div class="resize">
 <p><%= image_tag customer.image %></p>
+</div>
+<p><strong>Province:</strong></p>
 <p><%= customer.phone_number  %> </p>
 <p><%= customer.email_address  %> </p>
-<% else %>
-
-<% end %>
+</div>
